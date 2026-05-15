@@ -5,6 +5,7 @@ import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
 
 import Image from "next/image";
+import bgImage from '@/public/assets/background/background.jpg';
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
             }
           `}</style>
           <Image
-            src="/assets/background/background.jfif"
+            src={bgImage}
             width={200}
             height={200}
             alt="interior"
