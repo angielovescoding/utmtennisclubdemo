@@ -25,11 +25,12 @@ export default function Home() {
             }
           `}</style>
           <Image
-            src="/assets/background/background.jpg"
+            src="/assets/background/background.jfif"
             width={200}
             height={200}
             alt="interior"
             className="animate-expand w-auto opacity-100 object-cover"
+            priority
           />
         </div>
         <div className="flex flex-col items-center justify-center">
