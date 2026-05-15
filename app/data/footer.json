@@ -1,0 +1,11 @@
+{
+  "name": "UTM Tennis Club",
+  "address": {
+    "street": "ADDRESS",
+    "city": "Mississauga, ON",
+    "zip": "ZIP CODE"
+  },
+  "email": "EMAIL",
+  "phone_number": "PHONE",
+  "position": [43.6100963, -79.5871171]
+}

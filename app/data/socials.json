@@ -1,0 +1,18 @@
+{
+  "Facebook": {
+    "href": "",
+    "src": "/assets/icons/facebook.svg"
+  },
+  "Instagram": {
+    "href": "",
+    "src": "/assets/icons/instagram.svg"
+  },
+  "X": {
+    "href": "",
+    "src": "/assets/icons/x.svg"
+  },
+  "Tik Tok": {
+    "href": "",
+    "src": "/assets/icons/tiktok.svg"
+  }
+}
