@@ -9,7 +9,7 @@ const menuItems = [1, 2, 3, 4, 5, 6].map((item) => (
     className="group/menu-display overflow-hidden relative w-50 sm:w-75 h-50 sm:h-75 rounded-xl mx-4 transform-gpu"
   >
     <Image
-      src={`/assets/marquee/${"placeholder"}.jpg`}
+      src={`./assets/marquee/${"placeholder"}.jpg`}
       alt="placeholder"
       fill
       sizes="(max-width: 300px)"
