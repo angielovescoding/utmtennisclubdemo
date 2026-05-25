@@ -1,21 +1,24 @@
-"use client";
+import { twMerge } from "tailwind-merge";
 
-import Image from "next/image";
-
-export default function Background() {
+export default function Background({
+  className = "",
+  defaultColors = false,
+  children = null,
+}: {
+  className?: string;
+  defaultColors?: boolean;
+  children?: React.ReactNode;
+}) {
   return (
     <div
-      id="background"
-      className="bg-(--brand-white) dark:bg-(--brand-black)
-                  transition-colors duration-(--duration-animate) 
-                  fixed top-0 left-0 w-screen h-screen z-[-1]"
+      className={twMerge(
+        "-z-1",
+        "absolute inset-0 transition-colors duration-(--duration-animate)",
+        defaultColors ? "bg-(--brand-white) dark:bg-(--brand-black)" : "",
+        className,
+      )}
     >
-        <Image
-          src="/assets/background/background.jpg"
-          fill
-          alt="interior"
-          className="object-cover opacity-10"
-        />
+      {children}
     </div>
   );
 }

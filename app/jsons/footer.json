@@ -1,0 +1,11 @@
+{
+  "name": "UTM Tennis Club",
+  "address": {
+    "street": "3359 Mississauga Rd",
+    "city": "Mississauga, ON",
+    "zip": "L5L 1C6"
+  },
+  "email": "utmtennisclub@gmail.com",
+  "phone_number": "437-242-5889",
+  "position": [43.6371456, -79.577088]
+}

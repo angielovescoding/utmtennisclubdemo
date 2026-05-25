@@ -1,7 +1,7 @@
 "use client";
 
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import footerData from "@/app/data/footer.json";
+import footerData from "@/app/jsons/footer.json";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 

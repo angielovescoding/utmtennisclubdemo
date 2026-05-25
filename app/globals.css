@@ -3,27 +3,28 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-sans: var(--font-bricolage);
+  --font-sans: var(--font-p);
 }
 
 :root {
-  --brand-black: #313131;
-  --brand-white: #EDEDED;
-  --brand-color: #1E3765;
-  --duration-animate: 250ms;
-
-  --header-text-color: var(--brand-color);
+  --brand-white: #ffffff;
+  --brand-black: #000000;
+  --brand-color-1-l: #1E3765;
+  --brand-color-1-d: #fff;
+  --duration-animate: 1000ms;
+  --header-text-color: var(--brand-color-1-l);
   --text-color: 0 0 0;
 }
 
 .dark {
-  --header-text-color: var(--brand-color);
-  --text-color: 255 255 255;
+  --header-text-color: var(--brand-color-1-d);
+  --text-color: 0 0 0;
 }
 
-html, body {
-  max-width: 100vw;
-  overflow-x: hidden;
+section {
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 h2,
@@ -31,19 +32,19 @@ h3,
 h4,
 h5,
 h6 {
-  @apply transition-colors; 
+  @apply transition-colors;
   transition-duration: var(--duration-animate);
   color: var(--header-text-color);
-  font-family: var(--font-bebas);
+  font-family: var(--font-header);
 }
 
 h1 {
-  @apply transition-colors; 
+  @apply transition-colors;
   transition-duration: var(--duration-animate);
   color: var(--header-text-color);
 }
 
 p {
-  @apply transition-colors; 
+  @apply transition-colors;
   transition-duration: var(--duration-animate);
 }
