@@ -25,7 +25,7 @@ export default function Home() {
         {/* Background Image Container */}
         <div className="absolute inset-0">
           <Image
-            src="/assets/background/bg.jpg"
+            src="./assets/background/bg.jpg"
             fill
             priority
             alt="Background"
